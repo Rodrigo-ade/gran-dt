@@ -1,0 +1,23 @@
+{
+  "name": "gran-dt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "servir": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rodrigo-ade/gran-dt.git"
+  },
+  "author": "Rodrigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rodrigo-ade/gran-dt/issues"
+  },
+  "homepage": "https://github.com/Rodrigo-ade/gran-dt#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
