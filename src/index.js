@@ -18,7 +18,12 @@ function manejarSeleccionJugador(jugador){
 
 function actualizarTextoJugadores(){
   if(jugadoresSeleccionados < maximoJugadores){
-    document.querySelector("#jugadores-elegidos").textContent = `Debes elegir ${maximoJugadores - jugadoresSeleccionados} jugadores más`;
+    if(jugadoresSeleccionados < 5){
+      document.querySelector("#jugadores-elegidos").textContent = `Elige ${ 5 - jugadoresSeleccionados} titulares más`;
+    }
+    else{
+      document.querySelector("#jugadores-elegidos").textContent = `Elige ${maximoJugadores - jugadoresSeleccionados} suplentes`;
+    }
   }
   else{
     document.querySelector("#jugadores-elegidos").textContent = `¿Este es tu equipo final?`;
