@@ -7,10 +7,14 @@ body{
 }
 
 #titulares{
-  margin-top: 60px;
+  margin-top: 85px;
   margin-bottom: 80px;
   display: flex;
   flex-wrap: wrap;
+}
+
+#confirmar{
+  margin-bottom: 10px;
 }
 
 #suplentes{
@@ -20,4 +24,18 @@ body{
 
 .card{
   margin: 3px;
+}
+
+.rol-titular{
+  color: green;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-right: 5px;
+}
+
+.rol-suplente{
+  color: rgb(0, 89, 255);
+  font-size: 25px;
+  margin-top: 60px;
+  margin-right: 5px;
 }

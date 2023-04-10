@@ -3,7 +3,7 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Gran Dt</title>
+  <title>NBA Manager</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='src/index.css'>
   <link rel='stylesheet' type='text/css' media='screen' href='./node_modules/bootstrap/dist/css/bootstrap.min.css'>
@@ -11,102 +11,27 @@
 <body>
   <header>
     <div class="container">
-      <h1 class="text-center">Gran <Strong>DT</Strong></h1>
+      <h1 class="text-center">Fantasy Manager <Strong>NBA</Strong></h1>
     </div>
   </header>
 
   <div class="container text-center">
       <div class="row">
         <div class="container col-3">
+          <p><strong id="jugadores-elegidos">Elige Tus jugadores</strong></p>
+          <button type="button" class="btn btn-success oculto" id="confirmar">Confirmar</button>
           <div class="list-group" id="jugadores">
-            <p><strong id="jugadores-elegidos">Elige Tus jugadres titulares</strong></p>
-            <button type="button" class="btn btn-success oculto" id="confirmar">Confirmar</button>
+           
           </div>
         </div>
         <div class="col-9 text-center" id="cancha">
             <div id="titulares">
-              <div class="card text-bg-dark border-info" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
-
-              <div class="card text-bg-dark border-info" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
-
-              <div class="card text-bg-dark border-info" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
-
-              <div class="card text-bg-dark border-info" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
-
-              <div class="card text-bg-dark border-info" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
+              <strong class="rol-titular">Titulares</strong>
+              
             </div>
-
-
-            <div id="suplentes">
-              <div class="card text-bg-dark border-warning" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
-
-              <div class="card text-bg-dark border-warning" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
-
-              <div class="card text-bg-dark border-warning" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
-
-              <div class="card text-bg-dark border-warning" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
-
-              <div class="card text-bg-dark border-warning" style="width: 9rem;">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Nombre</h5>
-                  <p class="card-text">Precio</p>
-                  <p class="card-text">Equipo</p>
-                </div>
-              </div>
+            <div id="suplentes"> 
+              <strong class="rol-suplente">Suplentes</strong>
+              
             </div>
         </div>
       </div>
