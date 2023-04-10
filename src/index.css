@@ -1,3 +1,23 @@
+body{
+  background-color: antiquewhite !important;
+}
+
 .oculto{
   display: none !important;
+}
+
+#titulares{
+  margin-top: 60px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#suplentes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 3px;
 }
