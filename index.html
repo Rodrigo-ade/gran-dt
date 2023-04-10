@@ -9,7 +9,29 @@
   <link rel='stylesheet' type='text/css' media='screen' href='./node_modules/bootstrap/dist/css/bootstrap.min.css'>
 </head>
 <body>
+  <div class="container">
+    <h1 class="text-center">Gran <Strong>DT</Strong></h1>
+  </div>
 
-  <script type="module" src='./src/index.js'></script>
+  <div class="container">
+    <div class="container text-center">
+      <div class="row">
+        <div class="container col-3">
+          <p><strong>Pulsa jugadores para seleccionarlos:</strong></p>
+          <div class="list-group" id="jugadores">
+          </div>
+        </div>
+        <div class="col-8">
+          <p id="jugadores-elegidos">Debes elegir 10 jugadores más</p>
+          <button type="button" class="btn btn-success oculto" id="confirmar">Confirmar</button>
+          <div>
+            CANCHA FOTO
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src='./src/index.js'></script>
 </body>
 </html>
