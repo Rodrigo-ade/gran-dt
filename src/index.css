@@ -1,0 +1,41 @@
+body{
+  background-color: antiquewhite !important;
+}
+
+.oculto{
+  display: none !important;
+}
+
+#titulares{
+  margin-top: 85px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#confirmar{
+  margin-bottom: 10px;
+}
+
+#suplentes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  margin: 3px;
+}
+
+.rol-titular{
+  color: green;
+  font-size: 25px;
+  margin-top: 60px;
+  margin-right: 5px;
+}
+
+.rol-suplente{
+  color: rgb(0, 89, 255);
+  font-size: 25px;
+  margin-top: 60px;
+  margin-right: 5px;
+}

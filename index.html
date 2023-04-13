@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>NBA Manager</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='src/index.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='./node_modules/bootstrap/dist/css/bootstrap.min.css'>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="text-center">Fantasy Manager <Strong>NBA</Strong></h1>
+    </div>
+  </header>
+
+  <div class="container text-center">
+      <div class="row">
+        <div class="container col-3">
+          <p><strong id="jugadores-elegidos">Elige Tus jugadores</strong></p>
+          <button type="button" class="btn btn-success oculto" id="confirmar">Confirmar</button>
+          <div class="list-group" id="jugadores">
+           
+          </div>
+        </div>
+        <div class="col-9 text-center" id="cancha">
+            <div id="titulares">
+              <strong class="rol-titular">Titulares</strong>
+              
+            </div>
+            <div id="suplentes"> 
+              <strong class="rol-suplente">Suplentes</strong>
+              
+            </div>
+        </div>
+      </div>
+  </div>
+
+  <script src='./src/index.js'></script>
+</body>
+</html>

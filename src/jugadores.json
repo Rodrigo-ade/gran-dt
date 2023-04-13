@@ -1,0 +1,25 @@
+{
+  "count": 15,
+  "results": 
+  [
+    {"nombre": "Damian Lillard", "equipo": "Lakers", "precio": 50000},
+    {"nombre": "Kyrie Irving", "equipo": "Mavericks", "precio": 40000},
+    {"nombre": "Donovan Mitchell", "equipo": "Cavaliers", "precio": 30000},
+
+    {"nombre": "Klay Thompson", "equipo": "Warriors", "precio": 50000},
+    {"nombre": "Bradley Beal", "equipo": "Wizards", "precio": 40000},
+    {"nombre": "Tyler Herro", "equipo": "Heat", "precio": 30000},
+
+    {"nombre": "Lebron James", "equipo": "Lakers", "precio": 50000},
+    {"nombre": "Kevin Durant", "equipo": "Suns", "precio": 40000},
+    {"nombre": "Jimmy Butler", "equipo": "Heat", "precio": 30000},
+
+    {"nombre": "Draymond Green", "equipo": "Warriors", "precio": 50000},
+    {"nombre": "Pascal Siakam", "equipo": "Raptors", "precio": 40000},
+    {"nombre": "Aaron Gordon", "equipo": "Nuggets", "precio": 30000},
+    
+    {"nombre": "Nikola Jokic", "equipo": "Nuggets", "precio": 50000},
+    {"nombre": "Anthony Davis", "equipo": "Lakers", "precio": 40000},
+    {"nombre": "Rudy Gobert", "equipo": "Jazz", "precio": 30000}
+  ]
+}
