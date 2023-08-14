@@ -1,0 +1,50 @@
+body{
+  background-color: gray !important;
+}
+
+.court-container{
+  height: 90vh;
+  background-color: rgb(0, 0, 0);
+  background-image: url(../assets/basketball-court.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+}
+
+.players-list-container{
+  height: 90vh;
+  background-color: red;
+}
+
+.court-container .player{
+ position: absolute; 
+ height: 100px;
+ width: 100px;
+}
+
+#point-guard{
+  top: 78%;
+  left: 57%;
+}
+
+#small-forward{
+  top: 60%;
+  left: 69%;
+}
+
+#shooting-guard{
+  top: 60%;
+  left: 44%;
+}
+
+#power-forward{
+  top:24%;
+  left:48%;
+}
+
+#center{
+  top: 20%;
+  left: 62%;
+}
+
+

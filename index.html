@@ -3,13 +3,87 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Gran DT</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Basketball Fantasy Manager</title>
   <link rel='stylesheet' type='text/css' media='screen' href='src/main.css'>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-  <h1>Algo</h1>
+  <header>
+    <div class="row text-center m-1">
+      <h3>Basketball Fantasy Manager</h3>
+    </div>
+  </header>
+
+  <div class="row m-1">
+    <div class="col-4 players-list-container">
+      <div class="list-group p-1">
+
+        <a href="#" class="list-group-item list-group-item-action player m-1">
+          <div class="row">
+            <div class="col-8 text-center">
+              <p class="mb-1"><strong>Lebron James</strong></p>
+            </div>
+            <div class="col-4">
+              <div class="col-3">
+                <span class="badge rounded-pill text-bg-primary team">Lakers</span>
+              </div>
+              <div class="col-3">
+                <span class="badge rounded-pill text-bg-success price">150 $</span>
+              </div>
+            </div>
+          </div>
+        </a>
+    
+      </div>
+    </div>
+    <div class="col-6 court-container">
+      <div class="player" id="point-guard">
+          <div class="col-8">
+            <img class="player-face img-fluid" src="./assets/player-silhouette.png" alt="">
+          </div>
+          <div class="col-4">
+            <strong class="name">Player Name</strong>
+          </div>
+      </div>
+
+      <div class="player" id="small-forward">
+        <div class="col-8">
+          <img class="player-face img-fluid" src="./assets/player-silhouette.png" alt="">
+        </div>
+        <div class="col-4">
+          <strong class="name">Player Name</strong>
+        </div>
+      </div>
+
+      <div class="player" id="shooting-guard">
+        <div class="col-8">
+          <img class="player-face img-fluid" src="./assets/player-silhouette.png" alt="">
+        </div>
+        <div class="col-4">
+          <strong class="name">Player Name</strong>
+        </div>
+      </div>
+
+      <div class="player" id="power-forward"> 
+        <div class="col-8">
+          <img class="player-face img-fluid" src="./assets/player-silhouette.png" alt="">
+        </div>
+        <div class="col-4">
+          <strong class="name">Player Name</strong>
+        </div>
+      </div>
+
+      <div class="player" id="center">
+        <div class="col-8">
+          <img class="player-face img-fluid" src="./assets/player-silhouette.png" alt="">
+        </div>
+        <div class="col-4">
+          <strong class="name">Player Name</strong>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
   <script src='src/index.js'></script>
 </body>

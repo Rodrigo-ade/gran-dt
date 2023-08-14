@@ -1,0 +1,35 @@
+{
+  "count": 1000,
+  "results": [
+    { 
+      "name": "Stephen",
+      "team": "Warriors", 
+      "price": 140, 
+      "image":"./assets/player-silhouette.png"
+    },
+    { 
+      "name": "Lebron",
+      "team": "Lakers", 
+      "price": 150, 
+      "image":"./assets/player-silhouette.png"
+    },
+    { 
+      "name": "Giannis",
+      "team": "Bucks", 
+      "price": 130, 
+      "image":"./assets/player-silhouette.png"
+    },
+    { 
+      "name": "Joel",
+      "team": "76ers", 
+      "price": 110, 
+      "image":"./assets/player-silhouette.png"
+    },
+    { 
+      "name": "Davis",
+      "team": "Lakers", 
+      "price": 100, 
+      "image":"./assets/player-silhouette.png"
+    }
+  ]
+}
