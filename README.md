@@ -1,2 +1,3 @@
 # fantasy-manager
-![image](https://github.com/Rodrigo-ade/gran-dt/assets/98775764/bcf9b705-047a-490d-8fdb-ceeb7234958b)
+![image](https://github.com/Rodrigo-ade/gran-dt/assets/98775764/fcfb632e-c60b-4c1e-a988-2fa942e9b9ae)
+
