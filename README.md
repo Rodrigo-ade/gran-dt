@@ -1,5 +1,5 @@
 # fantasy-manager
-![image](https://github.com/Rodrigo-ade/gran-dt/assets/98775764/e10f45dd-8851-48ba-8df2-e0dbbc45022c)
+![image](https://github.com/Rodrigo-ade/gran-dt/assets/98775764/9789922c-f63a-4423-8c84-fe816a94d157)
 ### Diagram Explained
 - 1 User has a Team.
 - 1 Team has 10 Players.
