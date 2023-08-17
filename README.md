@@ -1,4 +1,4 @@
-# gran-dt
+# fantasy-manager
 ![image](https://github.com/Rodrigo-ade/gran-dt/assets/98775764/e10f45dd-8851-48ba-8df2-e0dbbc45022c)
 ### Diagram Explained
 - 1 User has a Team.
